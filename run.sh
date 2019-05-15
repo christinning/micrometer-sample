@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./gradlew bootJar
+./gradlew clean bootJar
 docker-compose up --build -d
 
 progress="..."

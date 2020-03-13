@@ -1,5 +1,6 @@
 package uk.christinning.springsample.resource.person;
 
+import io.micrometer.core.annotation.Timed;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisher;
@@ -16,6 +17,7 @@ import java.util.List;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 
 
+@Timed
 @RestController
 @RequestMapping("/people")
 class PeopleController {

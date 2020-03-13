@@ -1,6 +1,7 @@
 Run the environment with `./run.sh`
 
 Graphana on http://localhost:3000
+Username/password: Admin Admin
 
 Connection settings - 
  * type: InfluxDB
